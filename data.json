@@ -1,0 +1,93 @@
+{
+  "employees": [
+    {
+      "id": 4,
+      "name": "Raman",
+      "loginId": "EMP004",
+      "password": "raman@gc31",
+      "role": "employee",
+      "totalLeaves": 4,
+      "leavesLeft": 3,
+      "leaveStatus": "Approved",
+      "rejectionReason": "",
+      "department": "General",
+      "leaveHistory": [
+        {
+          "id": 1785259966203,
+          "date": "28/7/2026",
+          "status": "Approved",
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Sagar",
+      "loginId": "EMP005",
+      "password": "sagar@2w41",
+      "role": "employee",
+      "totalLeaves": 4,
+      "leavesLeft": 4,
+      "leaveStatus": "No Leave Applied",
+      "rejectionReason": "",
+      "department": "General"
+    },
+    {
+      "id": 7,
+      "name": "Samar",
+      "loginId": "EMP001",
+      "password": "samar@0z32",
+      "role": "employee",
+      "totalLeaves": 4,
+      "leavesLeft": 3,
+      "leaveStatus": "Approved",
+      "rejectionReason": "",
+      "department": "General",
+      "leaveHistory": []
+    },
+    {
+      "id": 8,
+      "name": "Ram",
+      "loginId": "EMP006",
+      "password": "19f400ed8528bb5b2eafe5e07d2ae3e42312ef780c3ca05e09abc8e6b80f8204",
+      "role": "employee",
+      "totalLeaves": 4,
+      "leavesLeft": 4,
+      "leaveStatus": "No Leave Applied",
+      "rejectionReason": "",
+      "department": "General",
+      "leaveHistory": []
+    },
+    {
+      "id": 9,
+      "name": "WW",
+      "loginId": "EMP007",
+      "password": "bc05edc363eb0b5f5cbcfb4c37de8c5c60bc575e84e98c0c7848752f313e26ad",
+      "role": "employee",
+      "totalLeaves": 4,
+      "leavesLeft": 4,
+      "leaveStatus": "No Leave Applied",
+      "rejectionReason": "",
+      "department": "General",
+      "leaveHistory": []
+    }
+  ],
+  "leaveRequests": [
+    {
+      "id": 1,
+      "employeeId": 7,
+      "employeeName": "Samar",
+      "status": "Approved",
+      "requestedAt": "2026-07-28T16:54:53.018Z",
+      "reviewedAt": "2026-07-28T16:55:20.832Z"
+    },
+    {
+      "id": 2,
+      "employeeId": 4,
+      "employeeName": "Raman",
+      "status": "Approved",
+      "requestedAt": "2026-07-28T17:32:07.117Z",
+      "reviewedAt": "2026-07-28T17:32:46.223Z"
+    }
+  ]
+}
